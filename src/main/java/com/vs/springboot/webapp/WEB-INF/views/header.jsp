@@ -19,7 +19,7 @@
         }
         #header_info_status{
             width: 80%;
-            height: 80px;
+            height: 50px;
             border: 1px solid black;
             margin: 0 auto;
         }
@@ -29,16 +29,16 @@
             margin-right: 15px;
             padding: 15px;
         }
-        #information{
+        #header_nav{
             width: 100%;
             height: 50px;
             border: 1px solid black;
+            text-align: center;
         }
-        #information ul li{
+        #header_nav ul li{
             display: inline-block;
             margin: 0 auto;
             padding: 20px;
-            text-align: center;
         }
     </style>
 </head>
@@ -51,11 +51,11 @@
                     <li>로그인</li>
                 </ul>
             </nav>
-            <nav id="information">
+            <nav id="header_nav">
                 <ul>
                     <li>메인</li>
                     <li>블로그</li>
-                    <li>주인장</li>
+                    <li>소개</li>
                 </ul>
             </nav>
         </header>
